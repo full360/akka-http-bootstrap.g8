@@ -1,0 +1,11 @@
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>timestamp="%date{ISO8601}" level="%level" logger="%logger{36}" thread="%thread" message="%msg"%n</pattern>
+        </encoder>
+    </appender>
+    <logger name="io.swagger" level="info"/>
+    <root level="debug">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
