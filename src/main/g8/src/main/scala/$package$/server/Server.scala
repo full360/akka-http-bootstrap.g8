@@ -9,8 +9,8 @@ import akka.stream.ActorMaterializer
 import ch.megard.akka.http.cors.scaladsl.CorsDirectives._
 import com.google.inject.{ Inject, Singleton }
 import $package$.config.Config
-import $package$.server.domain.{ Error, ErrorWrapper }
-import $package$.server.utils.JsonSupport
+import $package$.server.model.{ Error, ErrorWrapper }
+import $package$.server.util.JsonSupport
 import $package$.services.health.HealthService
 import $package$.services.swagger.SwaggerService
 
