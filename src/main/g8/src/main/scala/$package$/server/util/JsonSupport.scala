@@ -1,4 +1,4 @@
-package $package$.server.utils
+package $package$.server.util
 
 import de.heikoseeberger.akkahttpjson4s.Json4sSupport
 import org.json4s
